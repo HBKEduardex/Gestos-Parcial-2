@@ -42,7 +42,7 @@ export ROS_DOMAIN_ID=10
 cd ~/Documents/kinect
 ros2 bag play kinect_data2 --loop
 PARA WEBCAM
-ros2 run gesturve_vision webcam_gesture_node
+ros2 run gesture_vision webcam_gesture_node
 
 ---------------------------------------------------------------
 4️⃣ INICIAR EL NODO DE GESTOS (MediaPipe)

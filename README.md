@@ -46,7 +46,7 @@ source install/setup.bash
 
 source /opt/ros/humble/setup.bash
 
-export ROS\_DOMAIN\_ID=10
+
 
 cd ~/Documents/Robotica/visual\_ws
 
@@ -62,7 +62,7 @@ ros2 run micro\_ros\_agent micro\_ros\_agent serial --dev /dev/ttyUSB0 -b 115200
 
 source /opt/ros/humble/setup.bash
 
-export ROS\_DOMAIN\_ID=10
+-
 
 cd ~/Documents/kinect
 
@@ -80,7 +80,7 @@ ros2 run gesture\_vision webcam\_gesture\_node
 
 source /opt/ros/humble/setup.bash
 
-export ROS\_DOMAIN\_ID=10
+-
 
 cd ~/Documents/Robotica/visual\_ws
 
@@ -96,7 +96,7 @@ ros2 run gesture\_vision gesture\_node
 
 source /opt/ros/humble/setup.bash
 
-export ROS\_DOMAIN\_ID=10
+-
 
 cd ~/Documents/Robotica/visual\_ws
 
@@ -112,7 +112,7 @@ ros2 run gesture\_vision depth\_zones\_node
 
 source /opt/ros/humble/setup.bash
 
-export ROS\_DOMAIN\_ID=10
+-
 
 ros2 node list
 
@@ -170,7 +170,7 @@ ros2 topic echo /cmd\_vel
 
 source /opt/ros/humble/setup.bash
 
-export ROS\_DOMAIN\_ID=10
+-
 
 export TURTLEBOT3\_MODEL=burger
 
